@@ -51,7 +51,7 @@ def main(path):
     """
     Função principal para executar o processamento dos arquivos e gerar o JSON.
     """
-    caminho = f"{path}"  # Altere para o caminho desejado
+    caminho = f"{path}"
     json_resultado = retorna_numero(caminho)
     print(json_resultado)
     salvar_json(json_resultado)
