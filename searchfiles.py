@@ -51,11 +51,11 @@ def main(path):
     """
     Função principal para executar o processamento dos arquivos e gerar o JSON.
     """
-    caminho = fr"{path}"  # Altere para o caminho desejado
+    caminho = f"{path}"  # Altere para o caminho desejado
     json_resultado = retorna_numero(caminho)
     print(json_resultado)
     salvar_json(json_resultado)
 
 # Exemplo de uso
 if __name__ == "__main__":
-    main(r"C:\Users\pedrobs\Downloads\2024")
+    main("caminho desejado")
